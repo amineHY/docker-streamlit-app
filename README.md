@@ -1,3 +1,7 @@
+
+![Docker Automated build](https://img.shields.io/docker/automated/aminehy/docker-streamlit-app)
+![Docker Pulls](https://img.shields.io/docker/pulls/aminehy/docker-streamlit-app)
+
 # Description
 This repository contains a docker image that allows running streamlit web application. It can be used to test the application and/or deploy to a cloud service like Google Cloud, Heroku, Amazon AWS
  

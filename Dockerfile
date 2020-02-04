@@ -19,11 +19,6 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt 
 RUN mkdir -p /root/.streamlit
 
 RUN bash -c 'echo -e "\
-	[general]\n\
-	email = \"hadjyoucef.amine@gmail.com\"\n\
-	" > /root/.streamlit/credentials.toml'
-
-RUN bash -c 'echo -e "\
 	[server]\n\
 	enableCORS = false\n\
 	" > /root/.streamlit/config.toml'

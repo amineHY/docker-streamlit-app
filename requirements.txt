@@ -1,15 +1,4 @@
 # Web application development framework
 streamlit
-
-# Python packages
-numpy
-
-# Computer Vision
-opencv-python
-
-# get data from URL
-pafy
-youtube-dl
-wget
 pipenv
-modin
+

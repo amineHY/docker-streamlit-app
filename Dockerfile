@@ -1,4 +1,4 @@
-FROM python:3.6.0
+FROM python:3.7.4
 # FROM python:3.6.9
 
 LABEL maintainer "Amine Hadj-Youcef  <hadjyoucef.amine@gmail.com>"
@@ -14,7 +14,7 @@ COPY . ./
 
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt \
 	&& rm -rf requirements.txt
-
+RUN pip install --upgrade streamlit
 # --------------- Configure Streamlit ---------------
 RUN mkdir -p /root/.streamlit
 

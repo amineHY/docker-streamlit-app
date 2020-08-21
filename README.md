@@ -25,8 +25,9 @@ docker run -ti --rm aminehy/docker-streamlit-app:latest
 
 - To access the docker container in the bash mode
 ```
-docker run -ti --rm aminehy/deploy_streamlit_app:latest bash
+docker run -ti --rm -p 8080 aminehy/deploy_streamlit_app:latest bash
 ```
+Two addresses will come up, only the top URL is functional.
 
 # Build docker image
 You can build this docker image from a dockerfile using this command

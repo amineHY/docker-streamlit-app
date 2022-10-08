@@ -1,5 +1,4 @@
-import streamlit as st 
+import streamlit as st
 
 
-
-st.text('Hello World')
+st.text("Hello World")
